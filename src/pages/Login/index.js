@@ -6,12 +6,12 @@ import IconGoogle from '~/assets/images/icons/google-icon.png';
 import { Container } from './styles';
 export default ({ onReceiveGoogle }) => {
 
-  const [users] = useState([
-    { id: 1, user: 'email.usuario@compasso.com.br', password: 'keepalive' },
-    { id: 2, user: 'emersongr7@gmail.com', password: 'emerson' },
-    { id: 3, user: 'juliana@', password: 'keepalive' },
-    { id: 4, user: 'juliana@', password: '123' }
-  ]);
+  // const [users] = useState([
+  //   { id: 1, user: 'email.usuario@compasso.com.br', password: 'keepalive' },
+  //   { id: 2, user: 'emersongr7@gmail.com', password: 'emerson' },
+  //   { id: 3, user: 'juliana@', password: 'keepalive' },
+  //   { id: 4, user: 'juliana@', password: '123' }
+  // ]);
 
 
   //definem valores dos inputs através do Onchange
@@ -23,8 +23,8 @@ export default ({ onReceiveGoogle }) => {
   const [passwordClassFocus, setPasswordClassFocus] = useState('desfocado');
 
   //definem quando os campos dos usúarios estão em brancos
-  const [erroUser, setErrorUser] = useState(false);
-  const [erroPassword, setErrorPassword] = useState(false)
+  // const [erroUser, setErrorUser] = useState(false);
+  // const [erroPassword, setErrorPassword] = useState(false)
 
 
   //usado para exibir a mensagem de conexão realizada com sucesso
@@ -109,7 +109,7 @@ export default ({ onReceiveGoogle }) => {
                       placeholder="user.name@mail.com"
                       onBlur={() => setUserClassFocus(!user ? 'desfocado' : 'focado')}
                       onFocus={() => {
-                        setErrorUser(false)
+                        // setErrorUser(false)
                         setUserClassFocus('focado')
                       }}
 
@@ -134,7 +134,7 @@ export default ({ onReceiveGoogle }) => {
                       placeholder="*******"
                       onBlur={() => setPasswordClassFocus(!password ? 'desfocado' : 'focado')}
                       onFocus={() => {
-                        setErrorPassword(false)
+                        // setErrorPassword(false)
                         setPasswordClassFocus('focado')
                       }}
                       onChange={e => setPassword(e.target.value)} />

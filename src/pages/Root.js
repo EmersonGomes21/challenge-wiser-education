@@ -9,10 +9,7 @@ const PagesRoot = () => {
 
   const [dataUser, setDataUser] = useState(null);
 
-  // const location = {
-  //   pathname: '/home',
-  //   state: { fromDashboard: true }
-  // }
+
   const actionLoginDataGoogle = async (u) => {
     const newUser = {
       // id: u.uid,
