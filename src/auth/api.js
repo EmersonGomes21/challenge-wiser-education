@@ -5,7 +5,7 @@ import 'firebase/firebase-firestore';
 import firebaseConfig from './config';
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-const db = firebaseApp.firestore();
+//const db = firebaseApp.firestore();
 
 export default {
   googleLogar: async () => {

@@ -156,13 +156,13 @@ export default ({ onReceiveGoogle }) => {
               </button>
 
                   <div className="social-logins">
-                    <a href="/home" onClick={actionLoginGoogle} className="login-google"> <img src={IconGoogle} width="20" alt="social icon" />Google</a>
+                    <a href="" onClick={actionLoginGoogle} className="login-google"> <img src={IconGoogle} width="20" alt="social icon" />Google</a>
 
-                    <a href="#" className="login-facebook disable"> <img src="https://imagepng.org/wp-content/uploads/2017/09/facebook-icone-icon.png" width="20" alt="social icon" />Facebook</a>
+                    <a href="" className="login-facebook disable"> <img src="https://imagepng.org/wp-content/uploads/2017/09/facebook-icone-icon.png" width="20" alt="social icon" />Facebook</a>
 
                   </div>
                   <p className="recovery">Esqueceu seu login ou senha? <br />
-               Clique <a href="#">aqui</a>
+               Clique <a href="">aqui</a>
                   </p>
                 </div>
               </form>
